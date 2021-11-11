@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML INPUT ELEMENTS</title>
+</head>
+<style>
+	#myDiv{
+		border : thick solid gray;
+		width: 800px;
+		margin-top: 2px;
+		margin-left: 2px;
+		margin-bottom: 4px;
+	}
+</style>
+
+<body>
+	<div id="myDiv">
+		<h1>Application Form</h1>
+	<form action="insert.java">
+		<label>Name: </label>
+		<input type="text" name="name">
+
+		<label>Email: </label>
+		<input type="email" name="email">
+
+		<label>Address: </label>
+		<textarea name="address"></textarea>
+		<br>
+		<br>
+
+		<label>Gender: </label>
+		<form >
+			<input type="checkbox" id="male" name="name" value="male">
+			<label>male</label>
+			<input type="checkbox" id="female" name="name" value="female">
+			<label>female</label><br>
+		</form>
+		<br>
+
+		<label>Choose City: </label>
+		<form >
+			<input type="Radio" id="Pune" name="name" value="Pune">
+			<label>Pune</label>
+			<input type="Radio" id="Sangli" name="name" value="Sangli">
+			<label>Sangli</label>
+			<input type="Radio" id="Bijapur" name="name" value="Bijapur">
+			<label>Pune</label>
+			<input type="Radio" id="Miraj" name="name" value="Miraj">
+			<label>Sangli</label><br><br>
+		</form>
+
+		<label>Contact Number: </label>
+		<input type="Number" name="Number"><br><br>
+
+		<label>Add Date: </label>
+		<input type="Date" name="name">
+
+		<label> Add Time: </label>
+		<input type="Time" name="name"><br><br>
+
+		<label> Select College Name </label>
+		<select>
+			<option> D.Y.PATIL,SANGLI </option>
+			<option> BHARTI VIDYAPETH,PUNE </option>
+			<option> BLDEA's ENG COLLEGE,BIJAPR </option>
+			<option> GOVERNMENT POLYTECHNIQUE,MIRAJ </option>
+		</select><br><br>
+
+		<label>Select County</label>
+		<select>
+			<option> Australia </option>
+			<option> Belgium </option>
+			<option> China </option>
+			<option> Germany </option>
+			<option> India </option>
+		</select>
+		<br><br> 
+		<input type="checkbox" name="name">
+		<label>Agree with all the terms & conditions</label><br>
+		<br>
+
+		<button>Submit</button><br><br>
+
+
+		<label>Not sucessfully submited</label>
+		<button>reset</button>
+	</div>
+</form>
+
+</body>
+</html>
